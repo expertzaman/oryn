@@ -1,0 +1,58 @@
+Deal Name,Deal Stage,Amount,Create Date,Close Date,Closed Lost Reason,Associated Company,Notes
+Carrow Co #1,Closed Won,"$38,258",2025-09-29,2025-11-20,,,VP Ops liked the demo
+Northbeam Co #2,Closed Won,"$43,396",2025-07-17,2025-08-08,,,VP Ops liked the demo
+Lanegrid Logistics #3,Closed Won,"$25,898",2026-07-15,2026-08-05,,,VP Ops liked the demo
+Freightly 3PL #4,Closed Won,"$9,948",2025-08-28,2025-09-24,,,VP Ops liked the demo
+Freightly 3PL #5,Closed Won,"$18,417",2026-04-25,2026-06-11,,,VP Ops liked the demo
+Carrow Logistics #6,Closed Won,"$50,497",2025-10-27,2025-12-27,,,VP Ops liked the demo
+Pallet 3PL #7,Closed Won,"$38,386",2026-02-15,2026-04-01,,,VP Ops liked the demo
+Northbeam Logistics #8,Closed Won,"$44,821",2025-07-16,2025-09-06,,,VP Ops liked the demo
+Lanegrid Co #9,Closed Won,"$35,713",2025-11-07,2026-01-25,,,VP Ops liked the demo
+Dockside 3PL #10,Closed Won,"$22,412",2025-10-26,2026-01-03,,,VP Ops liked the demo
+Carrow Freight #11,Closed Won,"$37,741",2025-10-11,2025-10-30,,,VP Ops liked the demo
+Dockside Logistics #12,Closed Won,"$17,789",2025-10-22,2026-01-10,,,VP Ops liked the demo
+Haulr 3PL #13,Closed Won,"$48,747",2025-09-09,2025-10-01,,,VP Ops liked the demo
+Pallet Logistics #14,Closed Won,"$35,864",2026-01-12,2026-03-02,,,VP Ops liked the demo
+Lanegrid Logistics #15,Closed Won,"$14,959",2026-03-29,2026-05-23,,,VP Ops liked the demo
+Freightly 3PL #16,Closed Won,"$15,439",2025-07-02,2025-08-14,,,VP Ops liked the demo
+Dockside Freight #17,Closed Won,"$10,465",2025-08-30,2025-10-20,,,VP Ops liked the demo
+Freightly Logistics #18,Closed Won,"$9,430",2026-05-24,2026-06-17,,,VP Ops liked the demo
+Pallet Co #19,Closed Lost,"$47,796",2025-10-26,2025-12-20,Too expensive for our budget,,
+Dockside Logistics #20,Closed Lost,"$16,356",2025-10-29,2025-12-06,Value unclear for ops team,,
+TruckWise Freight #21,Closed Lost,"$31,145",2026-04-03,2026-05-07,Value unclear for ops team,,
+TruckWise Logistics #22,Closed Lost,"$44,199",2025-08-26,2025-10-25,Value unclear for ops team,,
+Lanegrid Freight #23,Closed Lost,"$11,163",2025-09-15,2025-11-22,Too expensive for our budget,,
+Pallet Freight #24,Closed Lost,"$42,602",2026-06-13,2026-07-18,Timing - next year,,
+Northbeam Freight #25,Closed Lost,"$41,399",2025-10-06,2025-11-30,Value unclear for ops team,,
+Dockside 3PL #26,Closed Lost,"$23,549",2026-04-30,2026-06-08,Value unclear for ops team,,
+Lanegrid Co #27,Closed Lost,"$36,354",2026-02-07,2026-02-25,No response after demo,,
+Dockside 3PL #28,Closed Lost,"$10,137",2026-01-06,2026-02-16,Built it in-house with BI dashboards,,
+Lanegrid 3PL #29,Closed Lost,"$34,990",2025-10-08,2025-11-22,Built it in-house with BI dashboards,,
+Northbeam Logistics #30,Closed Lost,"$44,219",2025-08-12,2025-10-06,Timing - next year,,
+Dockside Co #31,Closed Lost,"$13,540",2025-12-24,2026-01-12,Went with competitor FourKites,,
+TruckWise Logistics #32,Closed Lost,"$50,582",2026-03-21,2026-04-25,No response after demo,,
+Lanegrid Logistics #33,Closed Lost,"$29,501",2025-11-09,2026-01-15,Value unclear for ops team,,
+Lanegrid Freight #34,Closed Lost,"$33,734",2025-07-09,2025-08-27,Went with competitor FourKites,,
+Northbeam 3PL #35,Closed Lost,"$52,750",2026-06-28,2026-08-15,Value unclear for ops team,,
+Haulr Co #36,Closed Lost,"$21,917",2026-03-19,2026-06-01,Too expensive for our budget,,
+Northbeam Logistics #37,Closed Lost,"$15,505",2025-09-17,2025-10-21,Value unclear for ops team,,
+Lanegrid 3PL #38,Closed Lost,"$50,722",2025-09-22,2025-10-12,Built it in-house with BI dashboards,,
+Dockside Freight #39,Closed Lost,"$13,135",2026-07-25,2026-10-07,No response after demo,,
+Dockside Logistics #40,Closed Lost,"$46,892",2026-04-01,2026-04-29,Went with competitor FourKites,,
+Carrow Freight #41,Closed Lost,"$27,957",2025-06-22,2025-08-21,Built it in-house with BI dashboards,,
+Dockside Co #42,Closed Lost,"$21,906",2025-07-09,2025-08-02,Built it in-house with BI dashboards,,
+Lanegrid Co #43,Demo scheduled,"$33,197",2025-12-16,,,,
+Carrow Logistics #44,Demo scheduled,"$40,544",2025-07-10,,,,
+Dockside Freight #45,Demo scheduled,"$48,300",2025-12-30,,,,
+Freightly Co #46,Demo scheduled,"$35,221",2026-04-23,,,,
+Pallet Logistics #47,Demo scheduled,"$18,280",2026-07-14,,,,
+Pallet Logistics #48,Demo scheduled,"$39,980",2026-05-28,,,,
+Freightly Freight #49,Proposal sent,"$53,272",2025-11-21,,,,
+Freightly Freight #50,Proposal sent,"$42,213",2025-06-03,,,,
+Dockside Freight #51,Proposal sent,"$41,351",2026-02-05,,,,
+Freightly Logistics #52,Proposal sent,"$22,885",2025-12-28,,,,
+Northbeam Freight #53,Proposal sent,"$47,420",2025-09-01,,,,
+Dockside Logistics #54,Discovery,"$40,905",2026-03-06,,,,
+Dockside Co #55,Discovery,"$17,357",2026-01-12,,,,
+TruckWise Logistics #56,Discovery,"$16,543",2026-06-30,,,,
+Pallet 3PL #57,Discovery,"$26,480",2025-07-13,,,,
