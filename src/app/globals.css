@@ -1,0 +1,173 @@
+@import "tailwindcss";
+
+/* ORYN design system · light theme · sans-serif only (Geist) */
+@theme {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* Primitives */
+  --color-ember-50: #fff4ed;
+  --color-ember-100: #ffe6d5;
+  --color-ember-200: #ffc9a8;
+  --color-ember-300: #ffa36e;
+  --color-ember-400: #ff8441;
+  --color-ember-500: #ff6a1f;
+  --color-ember-600: #ea5410;
+  --color-ember-700: #c2410c;
+  --color-ember-800: #9a3412;
+  --color-gold-300: #ffc46b;
+  --color-sky-50: #eef7ff;
+  --color-sky-100: #d9edfe;
+  --color-sky-500: #2f9bf0;
+  --color-sky-600: #1a7fd1;
+  --color-sky-700: #1565a8;
+  --color-ink-50: #f7f7f8;
+  --color-ink-100: #efeff1;
+  --color-ink-200: #e3e3e7;
+  --color-ink-300: #cfcfd6;
+  --color-ink-400: #9a9aa6;
+  --color-ink-500: #6b6b78;
+  --color-ink-600: #4a4a55;
+  --color-ink-700: #33333c;
+  --color-ink-800: #1f2028;
+  --color-ink-900: #0e0f14;
+
+  /* Semantic */
+  --color-canvas: #f7f7f8;
+  --color-surface: #ffffff;
+  --color-subtle: #f1f1f3;
+  --color-border: #e6e6ea;
+  --color-border-strong: #cfcfd6;
+  --color-fg: #0e0f14;
+  --color-fg-2: #4a4a55;
+  --color-fg-3: #6b6b78;
+  --color-brand: #ff6a1f;
+  --color-brand-soft: #fff1e8;
+  --color-brand-border: #ffd2b5;
+  --color-brand-text: #c2410c;
+  --color-success: #12805c;
+  --color-success-soft: #e8f6f0;
+  --color-warning: #b45309;
+  --color-warning-soft: #fdf3e1;
+  --color-danger: #c62a2a;
+  --color-danger-soft: #fdecec;
+  --color-info: #1a7fd1;
+  --color-info-soft: #eaf4fd;
+
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+
+  --shadow-e1: 0 1px 2px rgb(14 15 20 / 0.05);
+  --shadow-e2: 0 1px 2px rgb(14 15 20 / 0.04), 0 4px 12px rgb(14 15 20 / 0.05);
+  --shadow-e3: 0 2px 4px rgb(14 15 20 / 0.04), 0 12px 32px rgb(14 15 20 / 0.08);
+  --shadow-e4: 0 4px 8px rgb(14 15 20 / 0.06), 0 24px 64px rgb(14 15 20 / 0.14);
+  --shadow-focus: 0 0 0 3px rgb(255 106 31 / 0.28);
+}
+
+:root {
+  color-scheme: light;
+  --sunrise: linear-gradient(120deg, #ff6a1f 0%, #ffa36e 55%, #ffc46b 100%);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #ffd2b5;
+  color: #0e0f14;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+.overline {
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-fg-3);
+}
+
+.bg-sunrise {
+  background-image: var(--sunrise);
+}
+
+.text-sunrise {
+  background-image: var(--sunrise);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.ai-ring {
+  position: relative;
+}
+.ai-ring::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: inherit;
+  background: var(--sunrise);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+@keyframes shimmer {
+  0% { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+.skeleton {
+  background: linear-gradient(90deg, #efeff1 0%, #f7f7f8 40%, #efeff1 80%);
+  background-size: 800px 100%;
+  animation: shimmer 1.4s linear infinite;
+  border-radius: 8px;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 0.35; transform: scale(0.85); }
+  50% { opacity: 1; transform: scale(1); }
+}
+.thinking-dot {
+  animation: pulse-dot 1.2s ease-in-out infinite;
+}
+
+@keyframes toast-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.toast-in { animation: toast-in 180ms ease-out; }
+
+dialog::backdrop {
+  background: rgb(14 15 20 / 0.45);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
